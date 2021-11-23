@@ -1,0 +1,28 @@
+import 'dart:io';
+void main()
+{
+int salary;
+var bouns;
+var total;
+print("Enter Your Salary");
+salary =int.parse(stdin.readLineSync()!);
+print("your salary is $salary");
+if(salary>=40000)
+{
+bouns = salary*20/100;
+print("your $bouns bones is add"); 
+total=salary+bouns;
+print("your total salary with bouns is $total"); 
+
+
+}
+else
+{
+bouns = salary*10/100;
+
+print("your $bouns bones is add");
+total=salary+bouns;
+print("your total salary with bouns is $total"); 
+}
+
+}
